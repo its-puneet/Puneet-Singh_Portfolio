@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Benne&family=Poppins&family=Roboto&family=Ubuntu:ital@1&display=swap');
+
+/* font-family: 'Benne', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+html{
+    scroll-behavior: smooth;
+}
+body{
+    
+    line-height: 2rem;
+    background: url("images/bg2.png");
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+  }
+  
+.navbar {
+    float: left;
+  }
+  
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 1.25rem;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+    color: orange;
+  }
+
+.active{
+    color: black;
+    background-color: orange;
+    transition: all 0.3s ease;
+}
+.active:hover{
+    background-color: black;
+}
+#scrollup{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: orange;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    color: white;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+a #scrollup{
+    color: white;
+    font-size: 30px;
+}
+.content{
+    max-width: 550px;
+    margin: auto;
+    padding-top: 20px;
+    color: whitesmoke;
+
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    line-height: 2rem;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.quote{
+    text-shadow: 2px 2px 5px orange;
+
+}
+.quote hover{
+    color: orange;
+    cursor: default;
+    background-color: black;
+    text-shadow: none;
+    
+}
+h1:hover{
+    color: orange;
+    cursor: default;
+    background-color: black;
+    text-shadow: none;
+
+
+}
+h2{
+    font-family: 'Benne', serif;
+    color: orange;
+    text-align: center;
+    
+}
+h3 a{
+    font-family: 'Benne', serif;
+    color: orange;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+h3 a:hover{
+    color: rgb(173, 113, 0);
+}
+.intro{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+.para{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    
+
+}
+span{
+    color: orange;
+}
+.exp{
+    font-size: 1.5rem;
+}
+
+.box{    
+    text-align: center;
+    padding: 5px;
+}
+
+.box img{
+    height: 200px;
+    transition: all 0.3s ease;
+}
+.box img:hover{
+    opacity: 0.5;
+    
+}
+
+.box1{
+    border: 2px solid orange;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 15px;
+    padding: 10px;    
+}
+
+.contact{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.social-list{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.social-btn{
+    position: relative;
+  display: block;
+  color: #666;
+  font-size: 30px;
+  height: 60px;
+  width: 60px;
+  background: #171515;
+  line-height: 60px;
+  border-radius: 50%;
+  margin: 0 15px;
+  cursor: pointer;
+  transition: .5s;
+}
+.social-btn a{
+    text-decoration: none;
+    color: #666;
+}
+
+.social-btn:before{
+    position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  height: inherit;
+  width: inherit;
+  /* background: #d35400; */
+  border-radius: 50%;
+  transform: scale(.9);
+  z-index: -1;
+  transition: .5s;
+}
+.social-btn:hover{
+        color: #ffa502;
+        box-shadow: 0 0 15px #d35400;
+        text-shadow: 0 0 15px #d35400;
+}
+.social-btn a:hover{
+    color: #ffa502;
+}
+.bio{
+    border: 2px solid orange;
+
+}
+.contact h2{
+    margin-top: 15px;
+}
+.Resume{
+    padding: 10px;
+    background-color: orange;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.Resume:hover{
+    background-color: black;
+    color: orange;
+    border: 2px solid orange;
+}
+
