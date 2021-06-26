@@ -69,13 +69,14 @@ a #scrollup{
     color: white;
     font-size: 30px;
 }
+
 .content{
-    max-width: 550px;
-    margin: auto;
     padding-top: 20px;
     color: whitesmoke;
-
+    align-items: center;
+    text-align: center;
 }
+
 h1{
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
@@ -85,9 +86,12 @@ h1{
     text-align: center;
     transition: all 0.3s ease;
     text-align: center;
+    max-width: 550px;
+    margin: auto;
 }
 .quote{
     text-shadow: 2px 2px 5px orange;
+    margin-bottom: 20px;
 
 }
 .quote hover{
@@ -102,8 +106,6 @@ h1:hover{
     cursor: default;
     background-color: black;
     text-shadow: none;
-
-
 }
 h2{
     font-family: 'Benne', serif;
@@ -120,28 +122,45 @@ h3 a{
 h3 a:hover{
     color: rgb(173, 113, 0);
 }
-.intro{
-    font-size: 1.5rem;
-    text-align: center;
+.Resume{
+    padding: 10px;
+    background-color: orange;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.Resume:hover{
+    background-color: black;
+    color: orange;
+    border: 2px solid orange;
 }
 
-
+.intro{
+    font-size: 1.5rem;
+    max-width: 550px;
+    margin: auto;
+}
 .para{
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    
-
 }
 span{
     color: orange;
 }
 .exp{
     font-size: 1.5rem;
+    max-width: 550px;
+    margin: auto;
 }
 
 .box{    
     text-align: center;
     padding: 5px;
+    max-width: 900px;
+    margin: auto;
 }
 
 .box img{
@@ -150,7 +169,6 @@ span{
 }
 .box img:hover{
     opacity: 0.5;
-    
 }
 
 .box1{
@@ -158,12 +176,19 @@ span{
     text-align: center;
     margin-top: 10px;
     border-radius: 15px;
-    padding: 10px;    
+    padding: 10px;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 20px;    
 }
 
+
 .contact{
+    max-width: 600px;
+    margin: auto;
     margin-top: 15px;
     margin-bottom: 10px;
+
 }
 
 .social-list{
@@ -220,19 +245,3 @@ span{
 .contact h2{
     margin-top: 15px;
 }
-.Resume{
-    padding: 10px;
-    background-color: orange;
-    border: 2px solid black;
-    border-radius: 20px;
-    color: black;
-    text-decoration: none;
-    font-weight: 500;
-    transition: all 0.3s ease;
-}
-.Resume:hover{
-    background-color: black;
-    color: orange;
-    border: 2px solid orange;
-}
-
