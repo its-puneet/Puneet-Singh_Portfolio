@@ -12,9 +12,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/jpg">
+    
+    
 </head>
 
 <body id="top">
+<audio src="bensound-creativeminds.mp3" autoplay="true" loop="true" ></audio>
     <nav>
         <ul>
             <li class="navbar"><a href="index.html" class="active">Home</a></li>
@@ -22,9 +25,12 @@
             <li class="navbar"><a href="#skills">Skills</a></li>
             <li class="navbar"><a href="#projects">Projects</a></li>
             <li class="navbar"><a href="#contact">Contact Me</a></li>
-            <li class="navbar"><a href="Puneet's Resume.pdf" download>Download Resume</a></li>
+            <li class="navbar"><a href="https://drive.google.com/drive/folders/1m3o_jI09EaouLSaOQdoaFAgtoqWMzlG1?usp=sharing" target="_blank" onclick="myfunc2()">Certificates</a></li>
+            <li class="navbar"><a href="Puneet's Resume.pdf" download target="_blank" onclick="myfunc()">Download Resume</a></li>
+
         </ul>
     </nav>
+    
     <div class="content">
         <h1 class="quote">"Talk is CHEAP , Show me the CODE!"</h1>
         <a href="#top"><button id="scrollup">&uarr;</button></a>
@@ -44,14 +50,17 @@
 
                 <br><br>
 
-                <a href="Puneet's Resume.pdf" download><button class="Resume">Download Resume</button></a>
+                <a href="Puneet's Resume.pdf" download><button class="Resume" onclick="myfunc()">Download Resume</button></a>
                 <br> <br>
                 <h2>Experience</h2>
                 <ol type="I">
                     <li class="exp">Intern at <span>Best Enlist</span></li>
                     <li class="exp">Intern at <span>Internship Studio</span></li>
+                    <li class="exp">Ninja Entrepreneur at <span>Coding Ninjas</span></li>
                     <li class="exp">Outreach Manager at <span>JIGSAWMINDZ</span></li>
+                    <li class="exp">Content Writing Co-Lead at <span>GFG-GNDU</span></li>
                     <li class="exp">Business Development Assosicate at <span>Ninthsem</span></li>
+
 
                 </ol>
             </p>
@@ -59,16 +68,16 @@
                 <h1 id="skills"><u>Skills</u></h1>
                 <p class="intro">
                     <div class="box">
-                        <img src="images/html.png" alt="html">
+                        <img src="images/html.png" alt="Html">
                         <img src="images/css.png" alt="CSS">    
                         <img src="images/javascript.png" alt="JAVASCRIPT">    
                     </div>
                     <div class="box">
-                        <img src="images/cpp.png" alt="CSS">
-                        <img src="images/java.png" alt="html">
+                        <img src="images/cpp.png" alt="C++">
+                        <img src="images/java.png" alt="java">
                     </div>
                     <div class="box">
-                        <img src="images/python.png" alt="html">
+                        <img src="images/python.png" alt="python">
                     </div>                
                 </p>
             </div>
@@ -85,7 +94,7 @@
                         <h2>Sudoku Solver</h2>
                         <h3> <a href="https://github.com/its-puneet/sudokusolver" target="_blank">Link to Project</a></h3>
                         <p class="intro">
-                            Implementing <span>Backtracking Algorithm</span>, I made a Sudoku Solver to showcase real life example of<span>Data Structures and Algorithms </span>. It uses <span>Backtracking Algorithm</span> to solve the Sudoku and give us the solution.
+                            Implementing <span>Backtracking Algorithm</span>, I made a Sudoku Solver to showcase real life example of<span> Data Structures and Algorithms </span>. It uses <span>Backtracking Algorithm</span> to solve the Sudoku and give us the solution.
                         </p>
                     </div>
                     <div class="box1">
@@ -131,7 +140,14 @@
         </p>
         
     </div>
-
+    <script>
+        function myfunc(){
+            alert("Resume is Downloading!!")
+        }
+        function myfunc2(){
+            alert("Ready to see CERTIFICATES!!")
+        }
+        </script>
 
 </body>
 
