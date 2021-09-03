@@ -1,2 +1,2 @@
 #                                                                            Puneet Singh Portfolio
-My Personal Portfolio using HTML and CSS. 
+My Personal Portfolio using HTML, CSS and JAVASCRIPT. 
